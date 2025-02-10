@@ -5,7 +5,7 @@
 # **Project overview** : 
 <img src="Screenshot (31).png" />
 
-i use [this api](https://dictionaryapi.dev) for this project 👌.
+I am using [this api](https://dictionaryapi.dev) for this project 👌.
 
 ## this project can take a word from you , translate it, and give you the pronunciation in voice! 
 this is good exercise for working with api in javascript 💪.
