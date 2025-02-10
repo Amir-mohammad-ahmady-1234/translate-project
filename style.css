@@ -1,0 +1,91 @@
+body {
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* Set a max width for larger screens */
+}
+
+.searchBoxContainer {
+    background-color: whitesmoke;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputElem {
+    width: 100%;
+    max-width: 410px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 4px solid rgba(137, 43, 226, 0.574);
+    margin-right: 10px;
+}
+
+.searchBtn {
+    width: 125px;
+    height: 50px;
+    background-color: rgba(137, 43, 226, 0.384);
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.aftersearchShowing {
+    display: none; /* Keep hidden until needed */
+    background-color: whitesmoke;
+    width: 90%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.resultBox {
+    text-align: center; /* Center text in the result box */
+}
+
+.wordName {
+    font-size: 28px;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+.wordTypeAndPronunciation {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: monospace;
+    color: rgb(197, 194, 194);
+}
+
+.wordMeaning {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: monospace;
+    margin-top: 10px;
+}
+
+.audioForPronunciation {
+    margin-top: 10px;
+}
